@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>KONTUR: Тестовое задание</title>
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500" rel="stylesheet">
+  <link href="css/style.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="page-header">
+    <div class="page-header__container container">
+      <a class="page-header__logo logo">
+        <img class="logo__img" src="img/logo.png" width="97" height="96" alt="Имя компании">
+        <span class="logo__title">Имя<br> компании</span>
+      </a>
+      <div class="page-header__phone phone">
+        <span class="phone__number">+7 (999) 999-99-99</span>
+        <button class="phone__button button" type="button">Кнопка</button>
+      </div>
+    </div>
+    <nav class="main-nav main-nav--opened main-nav--nojs">
+      <button class="main-nav__toggle" type="button" title="Меню">
+        <span class="visually-hidden">Открыть меню</span></button>
+      <ul class="main-nav__list container">
+        <li class="main-nav__item main-nav__item--active">
+          <a class="main-nav__link main-nav__link--active">Главная</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="#">Каталог</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="#">Доставка и оплата</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="#">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="page-main">
+    <section class="page-main__ slider slider">
+      <ul class="slider__list">
+        <li class="slider__item visually-hidden">
+          <a class="slider__link"><span class="visually-hidden">Slider 1</span></a>
+        </li>
+        <li class="slider__item  slider__item--active">
+          <a class="slider__link"><span class="visually-hidden">Slider 2</span></a>
+        </li>
+        <li class="slider__item visually-hidden">
+          <a class="slider__link"><span class="visually-hidden">Slider 3</span></a>
+        </li>
+      </ul>
+      <div class="slider__controls">
+        <button class="slider__control-item"><span class="visually-hidden">Cпецпредложение-1</span></button>
+        <button class="slider__control-item slider__control-item--active"><span class="visually-hidden">Cпецпредложение-2</span></button>
+        <button class="slider__control-item"><span class="visually-hidden">Cпецпредложение-3</span></button>
+      </div>
+    </section>
+    <section class="catalog">
+      <div class="catalog__nav catalog-nav">
+        <span class="catalog-nav__title">Каталог</span>
+        <ul class="catalog-nav__list">
+          <li class="catalog-nav__item">
+            <a class="catalog-nav__link" href="#">Автомобили</a>
+          </li>
+          <li class="catalog-nav__item catalog-nav__item--active">
+            <a class="catalog-nav__link catalog-nav__link--active" href="#">Бытовая техника</a>
+            <ul class="catalog-nav__sub-list">
+              <li class="catalog-nav__sub-item">
+                <a class="catalog-nav__sub-link" href="#">Микроволновки</a>
+              </li>
+              <li class="catalog-nav__sub-item">
+                <a class="catalog-nav__sub-link" href="#">Холодильники</a>
+              </li>
+              <li class="catalog-nav__sub-item">
+                <a class="catalog-nav__sub-link" href="#">Посудомоечные машины</a>
+              </li>
+              <li class="catalog-nav__sub-item">
+                <a class="catalog-nav__sub-link" href="#">Чайники</a>
+              </li>
+            </ul>
+          </li>
+          <li class="catalog-nav__item">
+            <a class="catalog-nav__link" href="#">Мобильная техника</a>
+          </li>
+          <li class="catalog-nav__item">
+            <a class="catalog-nav__link" href="#">Компьютеры</a>
+          </li>
+          <li class="catalog-nav__item">
+            <a class="catalog-nav__link" href="#">Одежда</a>
+          </li>
+          <li class="catalog-nav__item">
+            <a class="catalog-nav__link" href="#">Недвижимость</a>
+          </li>
+        </ul>
+      </div>
+      <div class="catalog__container">
+        <h2 class="catalog__title">Заголовок</h2>
+        <ul class="catalog__list">
+          <li class="catalog__item">
+            <a class="catalog__link" href="#">
+              <img class="catalog__img" src="img/nophoto.png" width="200" height="200" alt="Продукт 1">
+            </a>
+            <p class="catalog__item-description">Тут хороший товар с очень длинным подробным описанием товара</p>
+            <button class="catalog__item-button button">Купить</button>
+          </li>
+          <li class="catalog__item">
+            <a class="catalog__link" href="#">
+              <img class="catalog__img" src="img/nophoto.png" width="200" height="200" alt="Продукт 2">
+            </a>
+            <p class="catalog__item-description">Тут хороший товар с длинным описанием</p>
+            <button class="catalog__item-button button">Купить</button>
+          </li>
+          <li class="catalog__item">
+            <a class="catalog__link" href="#">
+              <img class="catalog__img" src="img/nophoto.png" width="200" height="200" alt="Продукт 3">
+            </a>
+            <p class="catalog__item-description">Тут хороший товар</p>
+            <button class="catalog__item-button button">Купить</button>
+          </li>
+          <li class="catalog__item">
+            <a class="catalog__link" href="#">
+              <img class="catalog__img" src="img/nophoto.png" width="200" height="200" alt="Продукт 4">
+            </a>
+            <p class="catalog__item-description">Тут хороший товар</p>
+            <button class="catalog__item-button button">Купить</button>
+          </li>
+          <li class="catalog__item">
+            <a class="catalog__link" href="#">
+              <img class="catalog__img" src="img/nophoto.png" width="200" height="200" alt="Продукт 5">
+            </a>
+            <p class="catalog__item-description">Тут хороший товар</p>
+            <button class="catalog__item-button button">Купить</button>
+          </li>
+          <li class="catalog__item">
+            <a class="catalog__link" href="#">
+              <img class="catalog__img" src="img/nophoto.png" width="200" height="200" alt="Продукт 6">
+            </a>
+            <p class="catalog__item-description">Тут хороший товар</p>
+            <button class="catalog__item-button button">Купить</button>
+          </li>
+        </ul>
+      </div>
+      <div class="catalog__tab tab">
+        <ul class="tab__list">
+          <li class="tab__item">
+            <a class="tab__link" href="#">Tab 1</a>
+          </li>
+          <li class="tab__item">
+            <a class="tab__link tab__link--active" href="#">Tab 2</a>
+          </li>
+          <li class="tab__item">
+            <a class="tab__link" href="#">Tab 3</a>
+          </li>
+        </ul>
+        <div class="tab__info visually-hidden">
+          <img class="tab__img" src="img/nophoto.png" width="200" height="200" alt="Продукт Tab 1">
+          <div class="tab__info-container">
+            <span class="tab__title">Tab 1</span>
+            <p class="tab__description">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений.</p>
+          </div>
+        </div>
+        <div class="tab__info tab__info--active">
+          <img class="tab__img" src="img/nophoto.png" width="200" height="200" alt="Продукт Tab 2">
+          <div class="tab__info-container">
+            <span class="tab__title">Tab 2</span>
+            <p class="tab__description">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений.</p>
+          </div>
+        </div>
+        <div class="tab__info visually-hidden">
+          <img class="tab__img" src="img/nophoto.png" width="200" height="200" alt="Продукт Tab 3">
+          <div class="tab__info-container">
+            <span class="tab__title">Tab 3</span>
+            <p class="tab__description">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <span class="page-footer__copyright">&copy; 2017 Все права защищены</span>
+  </footer>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
